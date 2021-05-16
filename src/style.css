@@ -1,15 +1,24 @@
-body {
-      font-family: arial, sans-serif;
-}
+
 h1 {
     color: #878787;
     display: block;
-    font-size: 24px;
     font-weight: 100;
-    line-height: 28px;
+    font-style: italic;
+    line-height: 30px;
     margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
 }
 
+h2 {
+    color: #878787;
+    display: block;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -30,6 +39,19 @@ li:first-letter {
      text-transform: capitalize;
 }
 
+footer {
+    font-size: 10px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  padding: 5px;
+  max-width: 600px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
 .weather-app-wrapper {
     max-width: 600px;
     margin: 30px auto;
@@ -40,7 +62,7 @@ li:first-letter {
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    border: 1px solid #dadde1;
+    border: 2px solid #efefef;
     border-radius: 5px;
 }
 .overview {
@@ -63,5 +85,4 @@ li:first-letter {
     position: relative;
     font-size: 16px;
     top: -34px;
-
 }
