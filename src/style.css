@@ -62,7 +62,7 @@ footer {
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    border: 2px solid #efefef;
+    border: 2px solid #e0e0e0;
     border-radius: 5px;
 }
 .overview {
@@ -83,6 +83,24 @@ footer {
 
 .weather-temperature .units {
     position: relative;
-    font-size: 16px;
+    font-size: 18px;
     top: -34px;
+}
+.weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 16px;
 }
